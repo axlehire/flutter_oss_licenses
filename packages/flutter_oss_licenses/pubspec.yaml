@@ -1,7 +1,7 @@
 name: flutter_oss_licenses
 description: A new Flutter project.
 version: 1.0.1
-publish_to: none
+publish_to: http://nexus.axlehire.com:7777
 homepage: https://github.com/espresso3389/flutter_oss_licenses
 
 environment:
@@ -15,7 +15,10 @@ dependencies:
   meta: ^1.7.0
   yaml: ^3.1.0
   dart_oss_licenses:
-    path: ../dart_oss_licenses
+    hosted:
+      name: dart_oss_licenses
+      url: http://nexus.axlehire.com:7777
+    version: ^1.0.0
 
 dev_dependencies:
   flutter_lints: ^1.0.4
